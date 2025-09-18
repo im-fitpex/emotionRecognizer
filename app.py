@@ -4,7 +4,7 @@ import librosa
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-from src.model import EmotionCNN   # если model.py в папке src
+from src.model import EmotionCNN
 
 # Эмоции
 EMOTIONS = ["neutral","calm","happy","sad","angry","fearful","disgust","surprised"]
